@@ -1,0 +1,12 @@
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.header {
+    border-bottom: 2px solid #444;
+}
