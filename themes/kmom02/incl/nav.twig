@@ -24,7 +24,16 @@
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
-                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        <a href="{{ page.url }}">
+                            {% if page.title == "Home" %}
+                                <i class="fa fa-house-user" aria-hidden="true"></i>
+                            {% elseif page.title == "About" %}
+                                <i class="fa fa-desktop" aria-hidden="true"></i>
+                            {% elseif page.title == "Docs" %}
+                                <i class="fa fa-scroll" aria-hidden="true"></i>
+                            {% endif %}
+                            {{ page.title }}
+                        </a>
                     </li>
                 {% endfor %}
             </ul>

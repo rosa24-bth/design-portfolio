@@ -22,9 +22,26 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {    
+    .main {
+        padding: 0.8rem;
+        font-size: $standard-font-size * 0.9;
+    }
+    
     .header {
         flex-direction: column;
+    }
+
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
     }
 
     .nav ul {
