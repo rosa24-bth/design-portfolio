@@ -1,6 +1,6 @@
 @import '../../node_modules/normalize.css/normalize';
 
-@import '../../shared/fontawesome/scss/fontawesome.scss';
+@import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
@@ -26,7 +26,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
@@ -34,7 +35,8 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -59,13 +61,15 @@ body {
     word-wrap: break-word;
 }
 
-.header, .footer {
+.header,
+.footer {
     flex: 0 0 auto;
 }
 
 /* Title */
 
-.title, .logo {
+.title,
+.logo {
     padding: 3em 3em 3em 0;
     font-family: Pacifico;
 }
