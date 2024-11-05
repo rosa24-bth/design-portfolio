@@ -72,4 +72,28 @@
         text-align: center;
         cursor: pointer;
     }
+
+    .landingpage, .technology-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .box {
+        grid-column: span 1;
+    }
+
+    .technology-page {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        padding: 2em;
+    }
 }

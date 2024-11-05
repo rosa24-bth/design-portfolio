@@ -1,0 +1,38 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landingpage">
+            <div class="technology-grid">
+                <h1 class="landingpage-title">Technologies</h1>
+                <div class="box box-css">
+                    <a href="{{ 'technology/css'|link }}">CSS</a>
+                </div>
+                <div class="box box-html">
+                    <a href="{{ 'technology/html'|link }}">HTML</a>
+                </div>
+                <div class="box box-javascript">
+                    <a href="{{ 'technology/javascript'|link }}">JavaScript</a>
+                </div>
+                <div class="box box-php">
+                    <a href="{{ 'technology/php'|link }}">PHP</a>
+                </div>
+                <div class="box box-python">
+                    <a href="{{ 'technology/python'|link }}">python</a>
+                </div>
+                <div class="box box-git">
+                    <a href="{{ 'technology/git'|link }}">Git</a>
+                </div>
+                <div class="box box-sqlite">
+                    <a href="{{ 'technology/sqlite'|link }}">SQLite</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

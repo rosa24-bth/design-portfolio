@@ -1,0 +1,75 @@
+
+.landingpage {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.technology-grid {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+}
+
+/* General layout for boxes. */
+.box {
+    padding: 1.5em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Specific layout for each box. */
+.box-css {
+    grid-column: span 1;
+}
+
+.box-html {
+    grid-column: span 2;
+}
+
+.box-javascript {
+    grid-column: span 2;
+}
+
+.box-php {
+    grid-column: span 1;
+}
+
+.box-python {
+    grid-column: span 3;
+}
+
+.box-git {
+    grid-column: span 1;
+}
+
+.box-sqlite {
+    grid-column: span 2;
+}
+
+/* Styling for tech pages. */
+.technology-page {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    gap: 3em;
+}
+
+/* Styling for sidebar. */
+.sidebar {
+    padding: 1em;
+    border-right: 2px solid black;
+}
+
+.content {
+    padding-bottom: 1em;
+    padding-right: 1em;
+    max-width: 900px;
+}

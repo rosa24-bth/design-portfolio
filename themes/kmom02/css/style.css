@@ -451,32 +451,32 @@ template {
   }
 }
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(1, -1);
 }
 
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
 
@@ -6462,7 +6462,8 @@ pre code {
 }
 
 /* Header */
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
@@ -6497,19 +6498,103 @@ body {
   color: #333;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
 }
 
 img {
   max-width: 100%;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.technology-grid {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  text-align: center;
+}
+
+/* General layout for boxes. */
+.box {
+  padding: 1.5em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* Specific layout for each box. */
+.box-css {
+  grid-column: span 1;
+}
+
+.box-html {
+  grid-column: span 2;
+}
+
+.box-javascript {
+  grid-column: span 2;
+}
+
+.box-php {
+  grid-column: span 1;
+}
+
+.box-python {
+  grid-column: span 3;
+}
+
+.box-git {
+  grid-column: span 1;
+}
+
+.box-sqlite {
+  grid-column: span 2;
+}
+
+/* Styling for tech pages. */
+.technology-page {
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  gap: 3em;
+}
+
+/* Styling for sidebar. */
+.sidebar {
+  padding: 1em;
+  border-right: 2px solid black;
+}
+
+.content {
+  padding-bottom: 1em;
+  padding-right: 1em;
+  max-width: 900px;
 }
 
 .slide {
@@ -6528,7 +6613,8 @@ img {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6544,7 +6630,8 @@ img {
   .header {
     flex-direction: column;
   }
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -6576,6 +6663,24 @@ img {
     text-align: center;
     cursor: pointer;
   }
+  .landingpage, .technology-grid {
+    grid-template-columns: 1fr;
+  }
+  .landingpage h1 {
+    grid-column: span 1;
+  }
+  .box {
+    grid-column: span 1;
+  }
+  .technology-page {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+  .content {
+    padding: 2em;
+  }
 }
 * {
   color: #333;
@@ -6585,7 +6690,8 @@ img {
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
@@ -6593,7 +6699,8 @@ ol, ul {
   display: none !important;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -6604,7 +6711,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #87CEFA, #FF7E5F, #FFAE5D, #FDB99B);
+  background: linear-gradient(to bottom, #87cefa, #ff7e5f, #ffae5d, #fdb99b);
   background-attachment: fixed;
 }
 
@@ -6617,12 +6724,14 @@ body {
   word-wrap: break-word;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
   font-family: Pacifico;
 }
