@@ -1,0 +1,42 @@
+
+.landingpage {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.analysis-grid {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.landingpage h1 {
+    grid-column: span 1;
+    text-align: center;
+}
+
+/* General layout for boxes. */
+.box {
+    grid-column: span 1;
+    padding: 2.5em;
+    text-align: center;
+}
+
+/* Styling for analysis pages. */
+.analysis-page {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    gap: 3em;
+    padding: 1em;
+}
+
+.content {
+    padding-bottom: 1em;
+    padding-right: 1em;
+    max-width: 900px;
+    min-width: 200px;
+}
