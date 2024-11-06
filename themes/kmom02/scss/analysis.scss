@@ -27,16 +27,12 @@
 }
 
 /* Styling for analysis pages. */
-.analysis-page {
-    display: grid;
-    grid-template-columns: 175px 1fr;
-    gap: 3em;
-    padding: 1em;
-}
-
 .content {
-    padding-bottom: 1em;
-    padding-right: 1em;
+    padding: 1em;
     max-width: 900px;
     min-width: 200px;
+}
+
+.content h2 {
+    margin-top: 2em;
 }
