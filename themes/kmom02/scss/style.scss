@@ -53,6 +53,10 @@ body {
     flex-direction: column;
     background: $background-color;
     background-attachment: fixed;
+    border-left: 1rem solid $border-color;
+    border-top: 1rem solid $border-color;
+    border-right: 1rem solid $border-color;
+    height: auto;
 }
 
 .main {

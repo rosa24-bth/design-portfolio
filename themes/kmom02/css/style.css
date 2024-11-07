@@ -6754,6 +6754,10 @@ body {
   flex-direction: column;
   background: linear-gradient(to bottom, #87cefa, #ff7e5f, #ffae5d, #fdb99b);
   background-attachment: fixed;
+  border-left: 1rem solid #111;
+  border-top: 1rem solid #111;
+  border-right: 1rem solid #111;
+  height: auto;
 }
 
 .main {
