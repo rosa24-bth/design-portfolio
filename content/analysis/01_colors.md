@@ -47,7 +47,7 @@ Resultat
 
 ### Jessica Hische
 
-Jessica Hische är en erfaren och etablerad bokstavsillustratör från USA. Hon har samarbetat med många välkända personer och företag, och hon har även gett ut prisade böcker. Jessica använder ett complementary färgschema till sin about-sida.
+Jessica Hische är en erfaren och etablerad bokstavsillustratör från USA. Hon har samarbetat med många välkända personer och företag, och hon har även gett ut prisade böcker. Jessica använder ett komplementärt färgschema till sin about-sida.
 <br><br>
 Färgpaletten är denna:
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -72,7 +72,7 @@ Slutligen, för brödtexten används fonten Mercury, som även den ägs av Hoefl
 
 ### Martina Paukova
 
-Martina Paukova är en framgångsrik illustratör från Slovakien, vars illustrationer förekommit i stora publikationer och använts av erkända företag. Hon använder en färgstark och lekfull stil i sitt arbete, med vilken hon illustrerar vardagssituationer med en komisk touch. Martina använder ett complementary färgschema, med följande färgpalett:
+Martina Paukova är en framgångsrik illustratör från Slovakien, vars illustrationer förekommit i stora publikationer och använts av erkända företag. Hon använder en färgstark och lekfull stil i sitt arbete, med vilken hon illustrerar vardagssituationer med en komisk touch. Martina använder ett komplementärt färgschema, med följande färgpalett:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #FFEDED">
@@ -89,7 +89,7 @@ Eftersom Martina har valt att hålla sin about-sida sparsmakad så finns det ing
 
 ### Wes Bos
 
-Wes Bos är en kanadensisk webbutvecklare som erbjuder olika utbildningar och kurser online inom webbutveckling. Han driver också en podcast som även den handlar om webbutveckling. Till sin about-sida har han använt ett complementary färgschema, med den här färgpaletten:
+Wes Bos är en kanadensisk webbutvecklare som erbjuder olika utbildningar och kurser online inom webbutveckling. Han driver också en podcast som även den handlar om webbutveckling. Till sin about-sida har han använt ett monokromatiskt färgschema, men med en triadisk accentfärg, enligt den här färgpaletten:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #ffffff">
