@@ -14,19 +14,19 @@
     padding: 0 1em;
 }
 
-.nav a,
-.nav-toggle {
-    color: #333;
-}
-
 .nav-toggle {
     display: none;
 }
 
+$standard-font-size: 1rem;
+
 @media (max-width: 767px) {    
+    body {
+        font-size: $standard-font-size * 0.9;
+    }
+    
     .main {
         padding: 0.8rem;
-        font-size: $standard-font-size * 0.9;
     }
     
     .header {
