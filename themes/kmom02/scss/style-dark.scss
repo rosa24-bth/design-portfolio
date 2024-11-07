@@ -22,7 +22,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 * {
-    color: $font-color;
+    color: $font-color-dark-mode;
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
@@ -45,13 +45,18 @@ body {
     padding: 0;
 }
 
+img {
+    filter: grayscale(50%);
+    max-width: 80%;
+}
+
 /* Placement */
 
 body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background: black;
+    background: $background-color-dark-mode;
     background-attachment: fixed;
 }
 
@@ -75,10 +80,6 @@ body {
 .logo {
     padding: 3em 3em 3em 0;
     font-family: Pacifico;
-}
-
-.title * {
-    color: #111;
 }
 
 .title p {

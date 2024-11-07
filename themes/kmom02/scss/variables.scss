@@ -1,6 +1,10 @@
-$font-color: #333;
-$font-alternative-color: #fff;
+$font-color: #171717;
 $accent-color: #ee524d;
 $background-color: linear-gradient(to bottom, #87cefa, #ff7e5f, #ffae5d, #fdb99b);
-$background-alternative-color: #b3fbfd;
-$border-color: #111
+$border-color: #171717;
+
+
+/* For dark mode. */
+
+$background-color-dark-mode: #1F1B29;
+$font-color-dark-mode: #D6CDCDC7;

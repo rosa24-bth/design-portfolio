@@ -53,9 +53,8 @@ body {
     flex-direction: column;
     background: $background-color;
     background-attachment: fixed;
-    border-left: 1rem solid $border-color;
-    border-top: 1rem solid $border-color;
-    border-right: 1rem solid $border-color;
+    border-left: 0.7rem solid $border-color;
+    border-right: 0.7rem solid $border-color;
     height: auto;
 }
 
@@ -79,10 +78,6 @@ body {
 .logo {
     padding: 3em 3em 3em 0;
     font-family: Pacifico;
-}
-
-.title * {
-    color: #111;
 }
 
 .title p {

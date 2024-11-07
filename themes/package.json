@@ -10,12 +10,14 @@
     "lint": "stylelint \"**/*.scss\"",
     "watch": "sass kmom02/scss/style.scss:kmom02/css/style.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass kmom02/scss/style.scss:kmom02/css/style.min.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.min.css --no-source-map --watch --style compressed",
-    "style": "npm run style-light && npm run style-dark",
-    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style": "npm run style-light && npm run style-dark && npm run mobile-menu",
+    "style-min": "npm run style-light-min && npm run style-dark-min && npm run mobile-menu-min",
     "style-dark": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.css --no-source-map",
     "style-dark-min": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.min.css --no-source-map --style compressed",
     "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
+    "mobile-menu": "sass kmom02/scss/mobile-menu.scss kmom02/css/mobile-menu.css --no-source-map",
+    "mobile-menu-min": "sass kmom02/scss/mobile-menu.scss kmom02/css/mobile-menu.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

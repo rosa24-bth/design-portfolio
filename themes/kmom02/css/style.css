@@ -6424,6 +6424,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* For dark mode. */
 /* Blockquote */
 blockquote {
   font-style: italic;
@@ -6497,7 +6498,6 @@ body {
   font-family: Lato;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #333;
 }
 
 p,
@@ -6654,19 +6654,16 @@ img {
   padding: 0 1em;
 }
 
-.nav a,
-.nav-toggle {
-  color: #333;
-}
-
 .nav-toggle {
   display: none;
 }
 
 @media (max-width: 767px) {
+  body {
+    font-size: 0.9rem;
+  }
   .main {
     padding: 0.8rem;
-    font-size: 0.9rem;
   }
   .header {
     flex-direction: column;
@@ -6724,7 +6721,7 @@ img {
   }
 }
 * {
-  color: #333;
+  color: #171717;
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
@@ -6754,9 +6751,8 @@ body {
   flex-direction: column;
   background: linear-gradient(to bottom, #87cefa, #ff7e5f, #ffae5d, #fdb99b);
   background-attachment: fixed;
-  border-left: 1rem solid #111;
-  border-top: 1rem solid #111;
-  border-right: 1rem solid #111;
+  border-left: 0.7rem solid #171717;
+  border-right: 0.7rem solid #171717;
   height: auto;
 }
 
@@ -6779,10 +6775,6 @@ body {
 .logo {
   padding: 3em 3em 3em 0;
   font-family: Pacifico;
-}
-
-.title * {
-  color: #111;
 }
 
 .title p {
