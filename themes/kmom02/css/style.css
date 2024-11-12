@@ -6719,6 +6719,9 @@ img {
   .content {
     padding: 2em;
   }
+  .mygallery-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 * {
   color: #171717;
@@ -6792,4 +6795,18 @@ body {
 .spreadsheet {
   width: 100%;
   height: 550px;
+}
+
+/* Gallery srtyling */
+.mygallery-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px !important;
+  width: 100%;
+}
+
+.mygallery-grid img {
+  width: 100%;
+  height: 100%;
 }

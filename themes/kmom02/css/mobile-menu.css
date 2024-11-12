@@ -79,4 +79,7 @@
   .content {
     padding: 2em;
   }
+  .mygallery-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
