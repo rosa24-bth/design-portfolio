@@ -80,7 +80,7 @@ Efter att ha fått till mig att vi elever gärna fick ta ut svängarna lite i ku
 <br><br>
 Eftersom jag lärt mig mer och mer stegvis för varje kursmoment så finns det säkert senare lärdomar som jag skulle haft nytta av i början. På min förstasida så ser det inte så snyggt ut att bilden ligger direkt under texten, utan någon sorts symmetri eller proportionalitet. Det är faktiskt något jag vill fixa till...
 <br><br>
-...sådär, nu har about-sidan lite mer symmetrisk stil och layout också. Och jag har också valt att lägga till lite effekt på knappvalen i navbaren, så de poppar lite mer. Jag använde samma gradienta färgblandning som till webbplatsens bakgrund, för att bidra till en enhetlig känsla.
+...sådär, nu har home-sidan lite mer symmetrisk stil och layout också. Och jag har också valt att lägga till lite effekt på knappvalen i navbaren, så de poppar lite mer. Jag använde samma gradienta färgblandning som till webbplatsens bakgrund, för att bidra till en enhetlig känsla.
 
 Referenser
 -----------------------
