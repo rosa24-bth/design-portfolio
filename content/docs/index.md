@@ -83,14 +83,14 @@ They can also contain regular HTML.
 At the top of text files you can place a block comment and specify certain meta
 attributes of the page using [YAML][] (the "YAML header"). For example:
 
-    ---
-    Title: Welcome
-    Description: This description will go in the meta description tag
-    Author: Joe Bloggs
-    Date: 2001-04-25
-    Robots: noindex,nofollow
-    Template: index
-    ---
+
+Title: Welcome
+Description: This description will go in the meta description tag
+Author: Joe Bloggs
+Date: 2001-04-25
+Robots: noindex,nofollow
+Template: index
+
 
 These values will be contained in the `{{ meta }}` variable in themes (see
 below). Meta headers sometimes have a special meaning: For instance, Pico not
@@ -144,7 +144,7 @@ something like the following:
    probably isn't very different from your default `index.twig` (i.e. copy
    `index.twig`), it will create a list of all your blog articles. Add the
    following Twig snippet to `blog-index.twig` near `{{ content }}`:
-   ```
+
     {% for page in pages("blog")|sort_by("time")|reverse if not page.hidden %}
         <div class="post">
             <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
@@ -152,7 +152,7 @@ something like the following:
             <p class="excerpt">{{ page.description }}</p>
         </div>
     {% endfor %}
-   ```
+
 
 ## Customization
 
@@ -276,14 +276,14 @@ Naturally you can also pass variables to the function. For example, to return a
 list of all child pages of the current page, use `pages(current_page.id)`.
 Check out the following code snippet:
 
-    <section class="articles">
-        {% for page in pages(current_page.id) if not page.hidden %}
-            <article>
-                <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-                {{ page.id|content }}
-            </article>
-        {% endfor %}
-    </section>
+<section class="articles">
+    {% for page in pages(current_page.id) if not page.hidden %}
+        <article>
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            {{ page.id|content }}
+        </article>
+    {% endfor %}
+</section>
 
 The `pages()` function is very powerful and also allows you to return not just
 a page's child pages by passing the `depth` and `depthOffset` params. For
@@ -302,7 +302,7 @@ it will kinda work and you might even see it being used in old themes, but be
 warned: It slows down Pico. Always use Pico's `pages()` function when iterating
 Pico's page list (e.g. `{% for page in pages() %}…{% endfor %}`).
 
-#### Twig filters and functions
+### Twig filters and functions
 
 Additional to [Twig][]'s extensive list of filters, functions and tags, Pico
 also provides some useful additional filters and functions to make theming

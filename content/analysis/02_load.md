@@ -23,7 +23,7 @@ Resultat
 
 ### Sammanställning av mätningarna
 
-<iframe class="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1F31izdv2amH8pCC3MtwQLVzg2ks4-WO6RjC4fcmEhExDy7b11MieJDCRJlDTknF76bb-Tlm1EGe6/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="spreadsheet" title="Spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1F31izdv2amH8pCC3MtwQLVzg2ks4-WO6RjC4fcmEhExDy7b11MieJDCRJlDTknF76bb-Tlm1EGe6/pubhtml?widget=true&amp;headers=false"></iframe>
 <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1F31izdv2amH8pCC3MtwQLVzg2ks4-WO6RjC4fcmEhExDy7b11MieJDCRJlDTknF76bb-Tlm1EGe6/pubhtml?widget=true&amp;headers=false" target="_blank">Visa spreadsheet i full storlek</a></p>
 <br><br>
 <br><br>
