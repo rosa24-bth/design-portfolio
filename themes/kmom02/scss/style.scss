@@ -72,6 +72,21 @@ body {
     flex: 0 0 auto;
 }
 
+
+/* About page */
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-image {
+    width: 100px;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+
 /* Title */
 
 .title,
@@ -83,6 +98,7 @@ body {
 .title p {
     font-style: italic;
 }
+
 
 /* Navbar Icon Styles */
 

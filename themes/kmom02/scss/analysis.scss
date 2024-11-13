@@ -20,10 +20,11 @@
 }
 
 /* General layout for boxes. */
-.box {
+.analysis-box {
     grid-column: span 1;
     padding: 2.5em;
     text-align: center;
+    border: 1px solid black;
 }
 
 /* Styling for analysis pages. */

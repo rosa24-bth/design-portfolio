@@ -6539,7 +6539,7 @@ img {
   width: 100%;
 }
 
-.landingpage h1 {
+.landingpage-tech h1 {
   grid-column: span 3;
   text-align: center;
 }
@@ -6621,10 +6621,11 @@ img {
 }
 
 /* General layout for boxes. */
-.box {
+.analysis-box {
   grid-column: span 1;
   padding: 2.5em;
   text-align: center;
+  border: 1px solid black;
 }
 
 /* Styling for analysis pages. */
@@ -6652,6 +6653,11 @@ img {
 
 .nav ul li {
   padding: 0 1em;
+}
+
+.nav ul li:hover {
+  background: linear-gradient(to bottom, #87cefa, #ff7e5f, #ffae5d, #fdb99b);
+  border-radius: 1.2rem;
 }
 
 .nav-toggle {
@@ -6771,6 +6777,18 @@ body {
 .header,
 .footer {
   flex: 0 0 auto;
+}
+
+/* About page */
+.about-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.about-image {
+  width: 100px;
+  height: 100%;
+  border-radius: 1.5rem;
 }
 
 /* Title */

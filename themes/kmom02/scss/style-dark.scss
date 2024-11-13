@@ -74,6 +74,20 @@ body {
     flex: 0 0 auto;
 }
 
+
+/* About page */
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-image {
+    width: 100px;
+    border-radius: 1.5rem;
+}
+
+
 /* Title */
 
 .title,
@@ -86,10 +100,46 @@ body {
     font-style: italic;
 }
 
+
 /* Navbar Icon Styles */
 
 .nav ul li a i {
     margin-right: 0.5em;
     font-size: 1rem;
     vertical-align: middle;
+}
+
+/* Spreadsheet styling */
+
+.spreadsheet {
+    width: 100%;
+    height: 550px;
+}
+
+
+/* Gallery srtyling */
+
+.main-gallery {
+    flex: 1 0 auto;
+    padding: 1rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.mygallery-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mygallery-grid img {
+    height: 100%;
+}
+
+.video {
+    margin-top: 2rem;
+    max-width: 100%;
+    width: 100%;
 }
