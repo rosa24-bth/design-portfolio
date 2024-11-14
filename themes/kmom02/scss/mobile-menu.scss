@@ -78,8 +78,13 @@ $standard-font-size: 1rem;
         cursor: pointer;
     }
 
-    .landingpage, .technology-grid {
+    .technology-grid {
         grid-template-columns: 1fr;
+    }
+
+    .landingpage-tech h1 {
+        grid-column: span 1;
+        text-align: center;
     }
 
     .landingpage h1 {
